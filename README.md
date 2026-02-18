@@ -21,41 +21,6 @@
 <b>📰&nbsp;&nbsp;<a href="https://www.kimi.com/blog/kimi-k2-5.html">Tech Blog</a></b> | &nbsp;&nbsp;&nbsp; <b>📄&nbsp;&nbsp;<a href="tech_report.pdf">Full Report</a></b>
 </p>
 
-## 1. Model Introduction
-
-Kimi K2.5 is an open-source, native multimodal agentic model built through continual pretraining on approximately 15 trillion mixed visual and text tokens atop Kimi-K2-Base. It seamlessly integrates vision and language understanding with advanced agentic capabilities, instant and thinking modes, as well as conversational and agentic paradigms.
-
-### Key Features
-- **Native Multimodality**: Pre-trained on vision–language tokens, K2.5 excels in visual knowledge, cross-modal reasoning, and agentic tool use grounded in visual inputs.
-- **Coding with Vision**: K2.5 generates code from visual specifications (UI designs, video workflows) and autonomously orchestrates tools for visual data processing.
-- **Agent Swarm**: K2.5 transitions from single-agent scaling to a self-directed, coordinated swarm-like execution scheme. It decomposes complex tasks into parallel sub-tasks executed by dynamically instantiated, domain-specific agents.
-
-## 2. Model Summary
-
-<div align="center">
-
-
-| | |
-|:---:|:---:|
-| **Architecture** | Mixture-of-Experts (MoE) |
-| **Total Parameters** | 1T |
-| **Activated Parameters** | 32B |
-| **Number of Layers** (Dense layer included) | 61 |
-| **Number of Dense Layers** | 1 |
-| **Attention Hidden Dimension** | 7168 |
-| **MoE Hidden Dimension** (per Expert) | 2048 |
-| **Number of Attention Heads** | 64 |
-| **Number of Experts** | 384 |
-| **Selected Experts per Token** | 8 |
-| **Number of Shared Experts** | 1 |
-| **Vocabulary Size** | 160K |
-| **Context Length** | 256K |
-| **Attention Mechanism** | MLA |
-| **Activation Function** | SwiGLU |
-| **Vision Encoder** | MoonViT |
-| **Parameters of Vision Encoder** | 400M |
-</div>
-
 ## 3. Evaluation Results
 
 
